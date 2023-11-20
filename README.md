@@ -1,7 +1,21 @@
 # Overview
 ---
 
-This project is designed for my use, to make it easier to build modular programs where code is decoupled and reuseable between projects. 
+This project is designed for my use, to make it easier to build modular programs where code is decoupled and reuseable between projects.
+
+# Running
+---
+
+This is my example I made while learning winsock, to run, start the server exe first, and then run the client exe from the command line with the argument localhost (no '-' or quote marks). The commands usable are:
+
+### disconnect
+This tells the server to close the connection and shut down, sending a response to the client to tell it to shut down as well
+
+### domain
+Simple sends the message localhost back to the client
+
+### echo
+Echoes back whatever you put after echo
 
 # Building
 ---
