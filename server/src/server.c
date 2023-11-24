@@ -56,7 +56,7 @@ int main(void)
 		{
 			// Send "Message from server" to the client, and terminate their connection.
 			printf("Sending message...\n");
-			strcpy(buffer, "Message from server");
+			strcpy(buffer, "Message from server\n");
 			p_socket_send(con, buffer, strlen(buffer), NULL);
 			
 			p_socket_close(con, NULL);

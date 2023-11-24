@@ -12,9 +12,9 @@ add_subdirectory(client)
 add_subdirectory(server)
 add_subdirectory(dependencies)
 
-set_target_properties(plibsys plibsysstatic PROPERTIES FOLDER Dependencies)
+set_target_properties(plibsys PROPERTIES FOLDER Dependencies)
 
-set_target_properties(plibsys plibsysstatic
+set_target_properties(plibsys
     PROPERTIES
     ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib/${CMAKE_BUILD_TYPE}"
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/${CMAKE_BUILD_TYPE}"
